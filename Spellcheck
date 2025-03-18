@@ -1,0 +1,5 @@
+from textblob import Word 
+a = input("Enter the error sentence which you need the confidence level : ")
+gfg = Word(a) 
+print(gfg.spellcheck()) 
+#I havv a speling errror
