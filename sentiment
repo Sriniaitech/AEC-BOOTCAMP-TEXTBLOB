@@ -1,0 +1,6 @@
+from textblob import TextBlob 
+a= input("Enter the statement:")
+gfg = TextBlob(a)
+gfg = gfg.sentiment 
+print(gfg) 
+#Sandeep Jain An IIT Roorkee alumnus and founder of AOE. He loves to solve programming problems in most efficient ways.
