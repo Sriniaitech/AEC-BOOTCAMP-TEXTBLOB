@@ -1,0 +1,9 @@
+from textblob import TextBlob
+def correct_text(text):
+    blob = TextBlob(text)
+    corrected_text = blob.correct()
+    return corrected_text
+input_text = input("Enter a sentence with spelling mistakes: ")
+corrected_output = correct_text(input_text)
+print("Corrected text:", corrected_output)
+
