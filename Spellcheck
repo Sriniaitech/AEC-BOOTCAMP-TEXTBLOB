@@ -1,5 +1,4 @@
-from textblob import Word 
-a = input("Enter the error sentence which you need the confidence level : ")
-gfg = Word(a) 
-print(gfg.spellcheck()) 
-#I havv a speling errror
+from textblob import Word
+a = input('Enter the incorrect word: ')
+word = Word(a)
+print("Spellcheck Suggestions:", word.spellcheck())
