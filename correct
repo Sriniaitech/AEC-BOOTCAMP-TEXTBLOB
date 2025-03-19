@@ -1,4 +1,4 @@
 from textblob import TextBlob
-a = input('Enter the incorrect word: ')
-corrected_text = TextBlob(a).correct()
+text = input('Enter the incorrect word: ')
+corrected_text = TextBlob(text).correct()
 print(corrected_text)
