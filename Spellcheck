@@ -1,4 +1,4 @@
 from textblob import Word
-a = input('Enter the incorrect word: ')
-word = Word(a)
+text = input('Enter the incorrect word: ')
+word = Word(text)
 print("Spellcheck Suggestions:", word.spellcheck())
